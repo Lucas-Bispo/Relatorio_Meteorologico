@@ -27,7 +27,7 @@ void main() {
 }
 
 Future getWeather(String city){
-  String url = 'https://api.hgbrasil.com/weather/?format=json-cors&locale=pt&city_name=$city&key=0170eb3e ';
+  String url = 'https://api.hgbrasil.com/weather/?format=json-cors&locale=pt&city_name=$city&key=0170eb3e';
   return http.get(url);
 }
 
