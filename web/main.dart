@@ -49,7 +49,7 @@ void insertData(Future data) async{
   var body = json.decode(insertData.body);
 
 
-  if(body['reslts']['forecast'].length > 0){
+  if(body['results']['forecast'].length > 0){
     String html = '<div class="row">';
     html += formateHTML(body['results']['city_name']);
     html += formateHTML(body['results']['temp']);
